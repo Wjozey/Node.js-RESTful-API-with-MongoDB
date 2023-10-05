@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 
-const itemsRouter = require('./routes/api/items');
+const productRouter = require('./routes/api/product');
 dotenv.config();
 const app = express();
 
@@ -21,11 +21,11 @@ mongoose.connect(process.env.MONGO_URI, {
 
 const db = mongoose.connection;
 
-app.get('/', (req,res)=> {
-    res.send("Hello There")
-})
+// app.get('/', (req,res)=> {
+//     res.send("Hello There")
+// })
 
-app.use('/items', itemsRouter);
+app.use('/product', productRouter);
 
 const PORT = process.env.PORT || 5000;
 

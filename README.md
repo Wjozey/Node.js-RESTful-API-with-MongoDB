@@ -1,6 +1,5 @@
 # Node.js-RESTful-API-with-MongoDB
 
-
 A RESTful API developed using Node.js, Express.js, and MongoDB, offering complete CRUD operations for managing items. The API provides a simple yet effective way to integrate with various frontend technologies.
 
 ## 🚀 Features
