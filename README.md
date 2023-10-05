@@ -15,13 +15,13 @@ A RESTful API developed using Node.js, Express.js, and MongoDB, offering complet
 1. **Clone the repository**
 
    ```sh
-   git clone https://github.com/your-github-username/backend-api.git
+   git clone https://github.com/Wjozey/Node.js-RESTful-API-with-MongoDB.git
     ```
 
 2. **Navigate to the directory**
 
    ```sh
-   cd backend-api
+   cd Node.js-RESTful-API-with-MongoDB
     ```
 
 3. **Setup environment variables**
